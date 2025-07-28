@@ -291,7 +291,7 @@ local function RunLoadingStages()
     
     -- Execute main script only after countdown is complete
     local success, err = pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/oquazar/DHub/refs/heads/main/Script?token=GHSAT0AAAAAADIF4SNBG4UXJPASDRUG6THW2EHXYRQ"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/oquazar/DHub/refs/heads/main/Script"))()
     end)
     
     if not success then
